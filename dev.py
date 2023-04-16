@@ -1,11 +1,27 @@
-# A function that takes an adjacency matrix that counts the number of
-# feed forward loops and 3-node feedback loops in a given network. 
-# It uses the rapid method for the enumeration of 3-node subgraphs that
-# is described in S. Itzkovitz. Et.al, (“Subgraphs in random networks“ 
-# PHYSICAL REVIEW E 68, 026127 .2003), which is based on adjacency 
-# matrix operations. A network adjacency matrix is denoted by M, where 
-# M(i,j) = 1 if a directed edge exists from node i to node j and 0 
-# otherwise. For example, the number of self-loops can be easily counted
-# by summing up the diagonal of M.
-def count_loops(M):
-    
+# A function that checks if a specific reaction is a maintenace reaction
+# by checking if the reaction has one reactant and one product, and
+# those are ATP and ADP, respectively.
+def is_maintenance_reaction(model, reaction):
+    if len(reaction.reactants) == 1 and len(reaction.products) == 1:
+        if reaction.reactants[0].id == 'cpd00002' and reaction.products[0].id == 'cpd00008':
+            return True
+    return False
+
+# A function that searches all the reactions in a model for a maintenance
+# reaction, and returns the reaction if it finds one.
+def find_maintenance_reaction(model):
+    maintenace_rxns = []
+    for reaction in model.reactions:
+        if is_maintenance_reaction(model, reaction):
+            maintenace_rxns.append(reaction)
+    # If there is only one maintenance reaction, return it.
+    if len(maintenace_rxns) == 1:
+        return maintenace_rxns[0]
+    # If there are no maintenance reactions, return None.
+    elif len(maintenace_rxns) == 0:
+        return None
+    # If there are multiple maintenance reactions, return a list of them
+    # and print a warning.
+    else:
+        print('Warning: multiple maintenance reactions found.')
+        return maintenace_rxns
