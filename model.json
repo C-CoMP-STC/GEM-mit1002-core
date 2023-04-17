@@ -4212,6 +4212,35 @@
     "reactions": [
         {
             "annotation": {
+                "metanetx.reaction": "MNXR96131",
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn11300",
+                    "rxn09694",
+                    "rxn00062"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "ATPM",
+            "lower_bound": 3.15,
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "h2o_c": -1.0,
+                "h_c": 1.0,
+                "pi_c": 1.0
+            },
+            "name": "ATP maintenance requirement",
+            "notes": {
+                "original_bigg_ids": [
+                    "ATPM"
+                ]
+            },
+            "subsystem": "Biomass and maintenance functions",
+            "upper_bound": 1000.0
+        },
+        {
+            "annotation": {
                 "metanetx.reaction": "MNXR137922",
                 "sbo": "SBO:0000185",
                 "seed.reaction": "rxn14414"
