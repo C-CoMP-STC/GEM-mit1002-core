@@ -4224,11 +4224,11 @@
             "id": "ATPM",
             "lower_bound": 3.15,
             "metabolites": {
-                "adp_c": 1.0,
-                "atp_c": -1.0,
-                "h2o_c": -1.0,
-                "h_c": 1.0,
-                "pi_c": 1.0
+                "cpd00008_c0": 1.0,
+                "cpd00002_c0": -1.0,
+                "cpd00001_c0": -1.0,
+                "cpd00067_c0": 1.0,
+                "cpd00009_c0": 1.0
             },
             "name": "ATP maintenance requirement",
             "notes": {
