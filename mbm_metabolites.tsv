@@ -1,6 +1,6 @@
 Component,Compound,Metabolite(s),Metabolite in Core Model?,Notes
-Artificial Seawater,NaCl,ClNa (cpd19148),,
-Artificial Seawater,Na2SO4,"Na+ (cpd00971), O4S-2 (cpd00048)",,Couldn't find a the full compound in modelSEED
+Artificial Seawater,NaCl,ClNa (cpd19148),Na,
+Artificial Seawater,Na2SO4,"Na+ (cpd00971), O4S-2 (cpd00048)",Na,Couldn't find a the full compound in modelSEED
 Artificial Seawater,KCl,ClK (cpd27326),,
 Artificial Seawater,KBr,BrK (cpd09399),,
 Artificial Seawater,H3BO3,H3BO3 (cpd09225),,
