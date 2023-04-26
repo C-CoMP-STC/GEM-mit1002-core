@@ -1,0 +1,24 @@
+Component,Compound,Metabolite(s),Metabolite in Core Model?,Notes
+Artificial Seawater,NaCl,ClNa (cpd19148),Na,
+Artificial Seawater,Na2SO4,"Na+ (cpd00971), O4S-2 (cpd00048)",Na,Couldn't find a the full compound in modelSEED
+Artificial Seawater,KCl,ClK (cpd27326),,
+Artificial Seawater,KBr,BrK (cpd09399),,
+Artificial Seawater,H3BO3,H3BO3 (cpd09225),,
+Artificial Seawater,NaF,FNa (cpd05105),,
+Artificial Seawater,NaHCO3,CHNaO3 (cpd09249),,
+Artificial Seawater,MgCl2*6H2O,Cl2Mg (cpd04877),,
+Artificial Seawater,CaCl2*2H2O,CaCl2 (cpd26232),,There is a different ID for anyhdrous CaCl2
+Artificial Seawater,SrCl2*6H2O,"Sr2+ (cpd09695), Cl- (cpd00099)",,Couldn't find a the full compound in modelSEED
+FeEDTA Stock,FeEDTA,"Fe (cpd00021), EDTA (cpd00240)",,Couldn't find a the full compound in modelSEED
+Basal Medium,1 M Tris HCl pH 7.5,Cl- (cpd00099),,Couldn't find a the full compound in modelSEED
+Basal Medium,NH4Cl,"Cl- (cpd00099), H4N (cpd00013)",,Couldn't find a the full compound in modelSEED
+Basal Medium,K2HPO4,HK2O4P (cpd09398),,
+Vitamin Supplement,Biotin,BIOT (cpd00104),,
+Vitamin Supplement,Folic acid,Folate (cpd00393),,
+Vitamin Supplement,Pyridoxine-HCl,"Pyridoxol (cpd00263), Cl- (cpd00099)",,Couldn't find a the full compound in modelSEED
+Vitamin Supplement,Riboflavin,Riboflavin (cpd00220),,
+Vitamin Supplement,Thiamine,Thiamin (cpd00305),,
+Vitamin Supplement,Nicotinic acid,Nicotinamide (cpd00133),,
+Vitamin Supplement,Pantothenic acid,PAN (cpd00644),,
+Vitamin Supplement,Cyanocobalamin,Dicopac (cpd01826),,
+Vitamin Supplement,p-aminobenzoic acid,ABEE (cpd00443),,
